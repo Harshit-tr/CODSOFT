@@ -4,9 +4,6 @@ import string  # Importing the string module to use predefined sets of character
 # Function to generate a password
 def generatepassword(length):
     # Define possible characters for the password:
-    # - string.ascii_letters includes both uppercase and lowercase letters
-    # - string.digits includes numeric characters (0-9)
-    # - string.punctuation includes special characters like !, @, #, etc.
     charcters = string.ascii_letters + string.digits + string.punctuation
     
     # Create the password by randomly selecting characters for the given length
